@@ -3,10 +3,14 @@
   "version": "0.0.1",
   "description": "Extracts the sourceMappingUrl from a read stream",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:errorception/source-mapping-url.git"
+  },
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha --reporter spec"
   },
-  "author": "",
+  "author": "Rakesh Pai <rakeshpai@errorception.com>",
   "license": "MIT",
   "dependencies": {
     "through": "~2.3.4",
