@@ -1,0 +1,19 @@
+{
+  "name": "source-mapping-url",
+  "version": "0.0.1",
+  "description": "Extracts the sourceMappingUrl from a read stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "through": "~2.3.4",
+    "split": "~0.2.10"
+  },
+  "devDependencies": {
+    "should": "~2.0.2",
+    "mocha": "~1.13.0"
+  }
+}
