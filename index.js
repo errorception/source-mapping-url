@@ -7,7 +7,6 @@ module.exports = function(stream, done) {
 	stream.pipe(split()).pipe(through(function(chunk) {
 		if(chunk.indexOf("sourceMappingURL") !== -1) {
 			sourceMappingLine = chunk;
-			this.end();
 		}
 	}, function() {
 		if(sourceMappingLine) {

@@ -22,6 +22,15 @@ describe("sourceMappingUrl", function() {
 		});
 	});
 
+	it("should pick the last source sourceMappingUrl if there are multiple", function(done) {
+		sourceMappingUrl(fs.createReadStream(path.join(__dirname, "stubs", "multiple.js")), function(err, url) {
+			should.not.exist(err);
+
+			url.should.equal("scripts.js.map");
+			done();
+		});
+	});
+
 	it("should parse source maps with an @ format", function(done) {
 		sourceMappingUrl(fs.createReadStream(path.join(__dirname, "stubs", "jquery.js")), function(err, url) {
 			should.not.exist(err);
