@@ -13,11 +13,11 @@
   "author": "Rakesh Pai <rakeshpai@errorception.com>",
   "license": "MIT",
   "dependencies": {
-    "through": "~2.3.4",
-    "split": "~0.2.10"
+    "split": "^1.0.0",
+    "through": "^2.3.8"
   },
   "devDependencies": {
-    "should": "~2.0.2",
-    "mocha": "~1.13.0"
+    "should": "^11.1.0",
+    "mocha": "^3.0.2"
   }
 }
