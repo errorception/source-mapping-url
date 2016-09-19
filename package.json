@@ -1,6 +1,6 @@
 {
   "name": "source-mapping-url",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Extracts the sourceMappingUrl from a read stream",
   "main": "index.js",
   "repository": {
